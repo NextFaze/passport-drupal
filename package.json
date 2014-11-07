@@ -1,6 +1,6 @@
 {
   "name": "passport-drupal",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Drupal authentication strategy for Passport.",
   "author": {
     "name": "Victor Kareh",

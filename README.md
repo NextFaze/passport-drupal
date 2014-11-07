@@ -27,6 +27,7 @@ accepts these credentials and calls `done` providing a user, as well as
         consumerKey: DRUPAL_CONSUMER_KEY,
         consumerSecret: DRUPAL_CONSUMER_SECRET,
         providerURL: "http://drupal.example.com",
+        providerBackendURL: "http://private.drupal.example.com", // <---- Used for server to server requests such as token verification and profile requests. Defaults to providerURL.
         resourceEndpoint: "oauthlogin/api/user/info" // <---- optional. Defaults to `rest/system/connect`
       },
       function(token, tokenSecret, profile, done) {
