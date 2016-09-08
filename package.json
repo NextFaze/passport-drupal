@@ -13,10 +13,19 @@
   },
   "main": "./lib/passport-drupal",
   "dependencies": {
-    "passport-oauth1": "1.x"
+    "passport-oauth1": "1.x",
+    "passport-strategy": "^1.0.0"
   },
   "engines": {
     "node": ">= 0.4.0"
   },
-  "keywords": ["passport", "drupal", "auth", "authn", "authentication", "identity", "oauth"]
+  "keywords": [
+    "passport",
+    "drupal",
+    "auth",
+    "authn",
+    "authentication",
+    "identity",
+    "oauth"
+  ]
 }
