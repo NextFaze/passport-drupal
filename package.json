@@ -13,6 +13,7 @@
   },
   "main": "./lib/passport-drupal",
   "dependencies": {
+    "chance": "^1.0.4",
     "passport-oauth1": "1.x",
     "passport-strategy": "^1.0.0"
   },
